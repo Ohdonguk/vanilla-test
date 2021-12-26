@@ -1,0 +1,28 @@
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.weatherClass {
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.loginClass {
+  color: white;
+}
+
+.clockTime {
+  color: white;
+  font-size: 100px;
+  font-style: oblique;
+}
+
+.hidden {
+  display: none;
+}

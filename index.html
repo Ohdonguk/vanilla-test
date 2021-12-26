@@ -9,25 +9,31 @@
   </head>
   <body>
     <div>
-      <div id="weather" class="weatherClass">
-        <span></span>
-        <span></span>
+      <div class="weather-box">
+        <div id="weather" class="weatherClass">
+          <span></span>
+          <span></span>
+        </div>
       </div>
-      <div id="clock" class="clockTime">
-        <span>00:00</span>
+      <div class="clock-box">
+        <div id="clock" class="clockTime">
+          <span>00:00</span>
+        </div>
       </div>
-      <div>
+      <div class="main-box">
         <form id="login-form" class="hidden">
           <input type="text" required placeholder="What is your name?" />
           <input type="submit" value="submit" />
         </form>
         <span id="loginSpan" class="hidden loginClass"></span>
       </div>
-      <div>
+      <div class="todo-box">
         <form id="todo-form">
           <input type="text" placeholder="Write a To Do and Press Enter" />
         </form>
-        <ul id="todo-list"></ul>
+        <div class="list-box">
+          <ul id="todo-list"></ul>
+        </div>
       </div>
     </div>
 

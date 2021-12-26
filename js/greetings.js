@@ -13,7 +13,7 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username) {
-  loginSpan.innerText = `Hello ${username}`;
+  loginSpan.innerText = `${username}님 환영합니다.😀`;
   loginSpan.classList.remove(HIDDEN_KEY);
 }
 

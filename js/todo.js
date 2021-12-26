@@ -18,11 +18,12 @@ function deleteTodo(event) {
 }
 
 function paintTodo(newTodo) {
+  const username = localStorage.getItem("userName");
   const li = document.createElement("li");
   li.id = newTodo.id;
   const span = document.createElement("span");
   const button = document.createElement("button");
-  span.innerText = newTodo.text;
+  span.innerText = `${username} : ${newTodo.text}`;
   button.innerText = "❌";
   button.addEventListener("click", deleteTodo);
   li.appendChild(span);
